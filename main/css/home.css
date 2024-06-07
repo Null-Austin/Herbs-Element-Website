@@ -1,8 +1,18 @@
 h1 {
     text-align: center;
+    margin-top: 20px; /* Add some space at the top */
 }
+
 .main {
     background-color: rgb(131, 129, 129);
-    min-height: 90%;
     border-radius: 15px;
+    padding: 20px; /* Add padding for content */
+    box-sizing: border-box; /* Ensure padding is included in element size */
+}
+
+/* Make it responsive for smaller screens */
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
 }
