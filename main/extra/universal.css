@@ -2,20 +2,22 @@ body {
     background-color: rgb(146, 146, 146);
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/HondaElement-001.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover; /* Use cover to ensure the background image fills the screen */
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Use a more common font for better compatibility */
 }
+
 .tbar {
-    margin-top: 0%;
+    margin-top: 0; /* Remove percentage margin-top */
     background-color: rgb(57, 56, 56);
     font-family: "Lucida Console", "Courier New", monospace;
     border-color: rgb(123, 123, 123);
     border-radius: 5px;
 }
+
 #pimg {
-    border-color: black;
     border-radius: 50%;
-    width: 5%;
-    height: 5%;
-    border-style: solid;
-    border-color: rgb(99, 99, 99);
+    width: 50px; /* Use pixels for fixed size */
+    height: 50px;
+    border: 2px solid rgb(99, 99, 99); /* Combine border properties */
 }
