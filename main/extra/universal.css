@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(146, 146, 146);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/HondaElement-001.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.tbar {
+    margin-top: 0%;
+    background-color: rgb(57, 56, 56);
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-color: rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#pimg {
+    border-color: black;
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+    border-style: solid;
+    border-color: rgb(99, 99, 99);
+}

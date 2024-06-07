@@ -1,0 +1,8 @@
+h1 {
+    text-align: center;
+}
+.main {
+    background-color: rgb(131, 129, 129);
+    min-height: 90%;
+    border-radius: 15px;
+}
